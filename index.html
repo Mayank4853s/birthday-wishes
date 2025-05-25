@@ -24,11 +24,11 @@
 
         .ad-container {
             width: 100%;
-            max-width: 468px; /* Ad width */
-            margin: 20px auto; /* Centering and spacing */
+            max-width: 320px; /* New Ad width */
+            margin: 15px auto; /* Centering and spacing, slightly reduced margin for smaller ad */
             text-align: center;
-            overflow: hidden; /* Prevents ad content from breaking layout if it's larger */
-            min-height: 60px; /* Ad height, ensures space is reserved */
+            overflow: hidden;
+            min-height: 50px; /* New Ad height */
         }
 
         .main-container {
@@ -67,7 +67,7 @@
         h1.page-title {
             font-family: 'Lobster', cursive;
             color: #e91e63;
-            font-size: 2.8em; /* Reverted font size as text is shorter now */
+            font-size: 2.8em;
             margin-bottom: 20px;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
@@ -178,14 +178,14 @@
     <div class="ad-container">
         <script type="text/javascript">
             atOptions = {
-                'key' : 'd370681ca7a5684287032ddea03ad751',
+                'key' : '4588cd59653e65fc7ebb4d1e785f53a7',
                 'format' : 'iframe',
-                'height' : 60,
-                'width' : 468,
+                'height' : 50,
+                'width' : 320,
                 'params' : {}
             };
         </script>
-        <script type="text/javascript" src="//www.highperformanceformat.com/d370681ca7a5684287032ddea03ad751/invoke.js"></script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/4588cd59653e65fc7ebb4d1e785f53a7/invoke.js"></script>
     </div>
 
     <canvas id="confetti-canvas"></canvas>
@@ -195,7 +195,6 @@
         </div>
 
         <div id="formSection">
-            <!-- Updated Heading without Emojis -->
             <h1 class="page-title">जन्मदिन की हार्दिक शुभकामनाएं!</h1>
             <form id="wishForm">
                 <div class="input-group">
@@ -229,14 +228,14 @@
     <div class="ad-container">
         <script type="text/javascript">
             atOptions = {
-                'key' : 'd370681ca7a5684287032ddea03ad751',
+                'key' : '4588cd59653e65fc7ebb4d1e785f53a7',
                 'format' : 'iframe',
-                'height' : 60,
-                'width' : 468,
+                'height' : 50,
+                'width' : 320,
                 'params' : {}
             };
         </script>
-        <script type="text/javascript" src="//www.highperformanceformat.com/d370681ca7a5684287032ddea03ad751/invoke.js"></script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/4588cd59653e65fc7ebb4d1e785f53a7/invoke.js"></script>
     </div>
 
     <script>
@@ -286,7 +285,7 @@
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search);
             const paramBName = urlParams.get('bn');
-            const paramAge = urlParams.get('age');
+            const paramAge = url_params.get('age');
             const paramWishesFrom = urlParams.get('wf');
 
             if (paramBName && paramWishesFrom) {
